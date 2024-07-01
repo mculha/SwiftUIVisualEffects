@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIVisualEffectsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CategoryView()
         }
     }
 }

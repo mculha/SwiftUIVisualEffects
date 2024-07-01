@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		E9E268832C334B8000DB255E /* SwiftUIVisualEffectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E268822C334B8000DB255E /* SwiftUIVisualEffectsApp.swift */; };
-		E9E268852C334B8000DB255E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E268842C334B8000DB255E /* ContentView.swift */; };
+		E9E268852C334B8000DB255E /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E268842C334B8000DB255E /* CategoryView.swift */; };
 		E9E268872C334B8200DB255E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E268862C334B8200DB255E /* Assets.xcassets */; };
 		E9E2688A2C334B8200DB255E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E268892C334B8200DB255E /* Preview Assets.xcassets */; };
+		E9E268922C334C0700DB255E /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E268912C334C0300DB255E /* CategoryViewModel.swift */; };
+		E9E268952C334C4800DB255E /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E268942C334C4500DB255E /* CategoryModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E9E2687F2C334B8000DB255E /* SwiftUIVisualEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIVisualEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E268822C334B8000DB255E /* SwiftUIVisualEffectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIVisualEffectsApp.swift; sourceTree = "<group>"; };
-		E9E268842C334B8000DB255E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9E268842C334B8000DB255E /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		E9E268862C334B8200DB255E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9E268892C334B8200DB255E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9E268912C334C0300DB255E /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		E9E268942C334C4500DB255E /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,9 @@
 		E9E268812C334B8000DB255E /* SwiftUIVisualEffects */ = {
 			isa = PBXGroup;
 			children = (
+				E9E268932C334C3900DB255E /* Model */,
+				E9E268902C334BFB00DB255E /* Category */,
 				E9E268822C334B8000DB255E /* SwiftUIVisualEffectsApp.swift */,
-				E9E268842C334B8000DB255E /* ContentView.swift */,
 				E9E268862C334B8200DB255E /* Assets.xcassets */,
 				E9E268882C334B8200DB255E /* Preview Content */,
 			);
@@ -65,6 +70,23 @@
 				E9E268892C334B8200DB255E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9E268902C334BFB00DB255E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E9E268912C334C0300DB255E /* CategoryViewModel.swift */,
+				E9E268842C334B8000DB255E /* CategoryView.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E9E268932C334C3900DB255E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9E268942C334C4500DB255E /* CategoryModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9E268852C334B8000DB255E /* ContentView.swift in Sources */,
+				E9E268852C334B8000DB255E /* CategoryView.swift in Sources */,
+				E9E268952C334C4800DB255E /* CategoryModel.swift in Sources */,
+				E9E268922C334C0700DB255E /* CategoryViewModel.swift in Sources */,
 				E9E268832C334B8000DB255E /* SwiftUIVisualEffectsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

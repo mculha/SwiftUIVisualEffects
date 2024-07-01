@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CategoryView: View {
+    @State private var viewModel: CategoryViewModel = .init()
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +22,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    CategoryView()
 }
