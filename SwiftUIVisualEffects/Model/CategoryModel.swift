@@ -7,6 +7,7 @@
 
 struct CategoryModel {
     let title: String
+    let image: String
     let type: CategoryType
 }
 

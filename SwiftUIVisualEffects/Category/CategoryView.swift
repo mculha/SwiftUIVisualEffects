@@ -11,13 +11,35 @@ struct CategoryView: View {
     @State private var viewModel: CategoryViewModel = .init()
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List(viewModel.categories, id: \.title) { category in
+                HStack {
+                    Image(systemName: category.image)
+                        .foregroundStyle(.blue)
+                        
+                    Text(category.title)
+                        .font(.system(size: 16, weight: .semibold))
+                        
+                }
+                .frame(minHeight: 40)
+                
+            }.navigationDestination(for: CategoryType.self, destination: destination(type:))
         }
-        .padding()
+    }
+    
+    private func destination(type: CategoryType) -> some View {
+        switch type {
+        case .scrollEffects:
+            return EmptyView()
+        case .colorTreatments:
+            return EmptyView()
+        case .viewTransitions:
+            return EmptyView()
+        case .textTransitions:
+            return EmptyView()
+        case .metalShaders:
+            return EmptyView()
+        }
     }
 }
 
