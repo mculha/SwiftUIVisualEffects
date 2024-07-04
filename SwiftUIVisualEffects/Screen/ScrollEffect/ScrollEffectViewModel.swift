@@ -8,4 +8,14 @@ import SwiftUI
 
 @Observable final class ScrollEffectViewModel {
     
+    @ObservationIgnored
+    var imageNames: [String] = [
+        "chicken",
+        "elephant",
+        "gibbon",
+        "lion",
+        "parrot",
+        "puffin"
+    ]
+    
 }
