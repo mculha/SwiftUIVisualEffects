@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "gibbon.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
