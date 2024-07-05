@@ -15,15 +15,24 @@ struct ScrollEffectView: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack(spacing: 22) {
                     ForEach(Array(viewModel.imageNames.enumerated()), id: \.offset) { offset, imageName in
-                        Image(imageName)
-                            .resizable()
-                            .fixedSize(horizontal: false, vertical: true)
-                            .scaledToFill()
-                            .frame(width: proxy.size.width - 22, height: 300)
-                            .clipped()
-                            .clipShape(.rect(cornerRadius: 15))
-                            .padding(.leading, offset == 0 ? 11 : 0)
-                            .padding(.trailing, offset == (viewModel.imageNames.count - 1) ? 11 : 0)
+                        ZStack {
+                            
+                            Image(imageName)
+                                .resizable()
+                                .fixedSize(horizontal: false, vertical: true)
+                                .scaledToFill()
+                                .frame(width: proxy.size.width - 44, height: 300)
+                                .clipped()
+                                .clipShape(.rect(cornerRadius: 15))
+                                .padding(.leading, 0)
+                                .padding(.trailing, 22)
+                                .scrollTransition(axis: .horizontal) { content, phase in
+                                    content
+                                        .offset(x: phase.value * -250)
+                                }
+                        }
+                        .containerRelativeFrame(.horizontal, alignment: .leading)
+                        .clipShape(.rect(cornerRadius: 15))
                     }
                 }
                 .scrollTargetLayout()
