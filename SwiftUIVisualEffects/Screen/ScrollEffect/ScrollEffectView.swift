@@ -13,19 +13,10 @@ struct ScrollEffectView: View {
     var body: some View {
         GeometryReader { proxy in
             ScrollView(.horizontal, showsIndicators: false) {
-                LazyHStack(spacing: 22) {
+                LazyHStack(spacing: 0) {
                     ForEach(Array(viewModel.imageNames.enumerated()), id: \.offset) { offset, imageName in
                         ZStack {
-                            
-                            Image(imageName)
-                                .resizable()
-                                .fixedSize(horizontal: false, vertical: true)
-                                .scaledToFill()
-                                .frame(width: proxy.size.width - 44, height: 300)
-                                .clipped()
-                                .clipShape(.rect(cornerRadius: 15))
-                                .padding(.leading, 0)
-                                .padding(.trailing, 22)
+                            ScrollEffectRow(imageName: imageName, width: proxy.size.width)
                                 .scrollTransition(axis: .horizontal) { content, phase in
                                     content
                                         .offset(x: phase.value * -250)

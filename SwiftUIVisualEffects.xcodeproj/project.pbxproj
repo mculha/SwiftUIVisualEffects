@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E949CC8A2C389B0200276A8A /* ScrollEffectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E949CC892C389B0200276A8A /* ScrollEffectRow.swift */; };
 		E9C924852C3733870020FCCD /* ScrollEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C924842C3733870020FCCD /* ScrollEffectView.swift */; };
 		E9C924872C3734340020FCCD /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C924862C3734340020FCCD /* CategoryRow.swift */; };
 		E9C924892C3735EC0020FCCD /* ScrollEffectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C924882C3735EA0020FCCD /* ScrollEffectViewModel.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E949CC892C389B0200276A8A /* ScrollEffectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollEffectRow.swift; sourceTree = "<group>"; };
 		E9C924842C3733870020FCCD /* ScrollEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollEffectView.swift; sourceTree = "<group>"; };
 		E9C924862C3734340020FCCD /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		E9C924882C3735EA0020FCCD /* ScrollEffectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollEffectViewModel.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				E9C924882C3735EA0020FCCD /* ScrollEffectViewModel.swift */,
 				E9C924842C3733870020FCCD /* ScrollEffectView.swift */,
+				E949CC892C389B0200276A8A /* ScrollEffectRow.swift */,
 			);
 			path = ScrollEffect;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				E9C924852C3733870020FCCD /* ScrollEffectView.swift in Sources */,
 				E9E268952C334C4800DB255E /* CategoryModel.swift in Sources */,
 				E9C924892C3735EC0020FCCD /* ScrollEffectViewModel.swift in Sources */,
+				E949CC8A2C389B0200276A8A /* ScrollEffectRow.swift in Sources */,
 				E9E268922C334C0700DB255E /* CategoryViewModel.swift in Sources */,
 				E9C924872C3734340020FCCD /* CategoryRow.swift in Sources */,
 				E9E268832C334B8000DB255E /* SwiftUIVisualEffectsApp.swift in Sources */,
