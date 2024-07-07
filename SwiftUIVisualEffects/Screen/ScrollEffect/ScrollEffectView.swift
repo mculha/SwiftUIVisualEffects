@@ -11,26 +11,26 @@ struct ScrollEffectView: View {
     @State private var viewModel: ScrollEffectViewModel = .init()
     
     var body: some View {
-        GeometryReader { proxy in
-            ScrollView(.horizontal, showsIndicators: false) {
-                LazyHStack(spacing: 0) {
-                    ForEach(Array(viewModel.imageNames.enumerated()), id: \.offset) { offset, imageName in
+        ScrollView(.horizontal, showsIndicators: false) {
+            LazyHStack(spacing: 16) {
+                ForEach(Array(viewModel.imageNames.enumerated()), id: \.offset) { offset, imageName in
+                    VStack {
                         ZStack {
-                            ScrollEffectRow(imageName: imageName, width: proxy.size.width)
+                            ScrollEffectRow(imageName: imageName)
                                 .scrollTransition(axis: .horizontal) { content, phase in
                                     content
-                                        .offset(x: phase.value * -250)
+                                        .offset(x: phase.value * -200)
                                 }
                         }
-                        .containerRelativeFrame(.horizontal, alignment: .leading)
+                        .containerRelativeFrame(.horizontal)
                         .clipShape(.rect(cornerRadius: 15))
                     }
                 }
-                .scrollTargetLayout()
             }
-            .scrollTargetBehavior(.paging)
+            .scrollTargetLayout()
         }
-        
+        .contentMargins(32)
+        .scrollTargetBehavior(.paging)
     }
 }
 
