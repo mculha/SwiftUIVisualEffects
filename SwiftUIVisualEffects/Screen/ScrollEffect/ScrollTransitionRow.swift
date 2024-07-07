@@ -1,5 +1,5 @@
 //
-//  ScrollEffectRow.swift
+//  ScrollTransitionRow.swift
 //  SwiftUIVisualEffects
 //
 //  Created by Melih Çulha on 6.07.2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ScrollEffectRow: View {
+struct ScrollTransitionRow: View {
     
     let imageName: String
     
@@ -20,5 +20,5 @@ struct ScrollEffectRow: View {
 }
 
 #Preview {
-    ScrollEffectRow(imageName: "lion")
+    ScrollTransitionRow(imageName: "lion")
 }

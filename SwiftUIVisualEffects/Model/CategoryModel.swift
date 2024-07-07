@@ -15,7 +15,7 @@ struct CategoryModel {
 extension CategoryModel: Hashable { }
 
 enum CategoryType: CaseIterable {
-    case scrollEffects
+    case scrollTransition
     case colorTreatments
     case viewTransitions
     case textTransitions
@@ -24,8 +24,8 @@ enum CategoryType: CaseIterable {
     @ViewBuilder
     var destination: some View {
         switch self {
-        case .scrollEffects:
-            ScrollEffectView()
+        case .scrollTransition:
+            ScrollTransitionView()
         case .colorTreatments:
             EmptyView()
         case .viewTransitions:

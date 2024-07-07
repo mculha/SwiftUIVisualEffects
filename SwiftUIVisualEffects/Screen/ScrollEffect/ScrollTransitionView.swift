@@ -1,5 +1,5 @@
 //
-//  ScrollEffectView.swift
+//  ScrollTransitionView.swift
 //  SwiftUIVisualEffects
 //
 //  Created by Melih Çulha on 4.07.2024.
@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct ScrollEffectView: View {
-    @State private var viewModel: ScrollEffectViewModel = .init()
+struct ScrollTransitionView: View {
+    @State private var viewModel: ScrollTransitionViewModel = .init()
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
@@ -16,7 +16,7 @@ struct ScrollEffectView: View {
                 ForEach(Array(viewModel.imageNames.enumerated()), id: \.offset) { offset, imageName in
                     VStack {
                         ZStack {
-                            ScrollEffectRow(imageName: imageName)
+                            ScrollTransitionRow(imageName: imageName)
                                 .scrollTransition(axis: .horizontal) { content, phase in
                                     content
                                         .offset(x: phase.value * -200)
@@ -35,5 +35,5 @@ struct ScrollEffectView: View {
 }
 
 #Preview {
-    ScrollEffectView()
+    ScrollTransitionView()
 }

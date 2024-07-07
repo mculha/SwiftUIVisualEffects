@@ -10,7 +10,7 @@ import SwiftUI
     
     @ObservationIgnored
     let categories: [CategoryModel] = [
-        .init(title: "Scroll Effects", image: "appwindow.swipe.rectangle", type: .scrollEffects),
+        .init(title: "Scroll Transition", image: "appwindow.swipe.rectangle", type: .scrollTransition),
         .init(title: "Color Treatments", image: "swatchpalette.fill", type: .colorTreatments),
         .init(title: "View Transitions", image: "ellipsis.viewfinder", type: .viewTransitions),
         .init(title: "Text Transitions", image: "character.textbox", type: .textTransitions),

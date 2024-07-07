@@ -24,5 +24,5 @@ struct CategoryRow: View {
 }
 
 #Preview {
-    CategoryRow(category: .init(title: "Scroll Effects", image: "appwindow.swipe.rectangle", type: .scrollEffects))
+    CategoryRow(category: .init(title: "Scroll Transition", image: "appwindow.swipe.rectangle", type: .scrollTransition))
 }
