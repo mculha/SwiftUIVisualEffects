@@ -19,6 +19,7 @@ struct VisualEffectView: View {
             }
             .padding(.horizontal)
         }
+        .navigationBarBackButtonHidden()
     }
 }
 

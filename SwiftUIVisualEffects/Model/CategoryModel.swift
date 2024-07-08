@@ -16,6 +16,7 @@ extension CategoryModel: Hashable { }
 
 enum CategoryType: CaseIterable {
     case scrollTransition
+    case visualEffect
     case colorTreatments
     case viewTransitions
     case textTransitions
@@ -34,6 +35,8 @@ enum CategoryType: CaseIterable {
             EmptyView()
         case .metalShaders:
             EmptyView()
+        case .visualEffect:
+            VisualEffectView()
         }
     }
 }
