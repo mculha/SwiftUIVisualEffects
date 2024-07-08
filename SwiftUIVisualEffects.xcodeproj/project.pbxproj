@@ -11,6 +11,9 @@
 		E9C924852C3733870020FCCD /* ScrollTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C924842C3733870020FCCD /* ScrollTransitionView.swift */; };
 		E9C924872C3734340020FCCD /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C924862C3734340020FCCD /* CategoryRow.swift */; };
 		E9C924892C3735EC0020FCCD /* ScrollTransitionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C924882C3735EA0020FCCD /* ScrollTransitionViewModel.swift */; };
+		E9DA5A942C3C81750067F74F /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA5A932C3C81750067F74F /* VisualEffectView.swift */; };
+		E9DA5A962C3C81890067F74F /* VisualEffectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA5A952C3C81870067F74F /* VisualEffectViewModel.swift */; };
+		E9DA5A992C3C85250067F74F /* VisualEffectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DA5A982C3C85250067F74F /* VisualEffectRow.swift */; };
 		E9E268832C334B8000DB255E /* SwiftUIVisualEffectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E268822C334B8000DB255E /* SwiftUIVisualEffectsApp.swift */; };
 		E9E268852C334B8000DB255E /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E268842C334B8000DB255E /* CategoryView.swift */; };
 		E9E268872C334B8200DB255E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E268862C334B8200DB255E /* Assets.xcassets */; };
@@ -24,6 +27,9 @@
 		E9C924842C3733870020FCCD /* ScrollTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionView.swift; sourceTree = "<group>"; };
 		E9C924862C3734340020FCCD /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		E9C924882C3735EA0020FCCD /* ScrollTransitionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionViewModel.swift; sourceTree = "<group>"; };
+		E9DA5A932C3C81750067F74F /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		E9DA5A952C3C81870067F74F /* VisualEffectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectViewModel.swift; sourceTree = "<group>"; };
+		E9DA5A982C3C85250067F74F /* VisualEffectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectRow.swift; sourceTree = "<group>"; };
 		E9E2687F2C334B8000DB255E /* SwiftUIVisualEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIVisualEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E268822C334B8000DB255E /* SwiftUIVisualEffectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIVisualEffectsApp.swift; sourceTree = "<group>"; };
 		E9E268842C334B8000DB255E /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
@@ -47,6 +53,7 @@
 		E9C924822C3733640020FCCD /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				E9DA5A922C3C81660067F74F /* VisualEffect */,
 				E9C924832C3733780020FCCD /* ScrollEffect */,
 				E9E268902C334BFB00DB255E /* Category */,
 			);
@@ -61,6 +68,16 @@
 				E949CC892C389B0200276A8A /* ScrollTransitionRow.swift */,
 			);
 			path = ScrollEffect;
+			sourceTree = "<group>";
+		};
+		E9DA5A922C3C81660067F74F /* VisualEffect */ = {
+			isa = PBXGroup;
+			children = (
+				E9DA5A952C3C81870067F74F /* VisualEffectViewModel.swift */,
+				E9DA5A932C3C81750067F74F /* VisualEffectView.swift */,
+				E9DA5A982C3C85250067F74F /* VisualEffectRow.swift */,
+			);
+			path = VisualEffect;
 			sourceTree = "<group>";
 		};
 		E9E268762C334B8000DB255E = {
@@ -188,11 +205,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E268852C334B8000DB255E /* CategoryView.swift in Sources */,
+				E9DA5A962C3C81890067F74F /* VisualEffectViewModel.swift in Sources */,
 				E9C924852C3733870020FCCD /* ScrollTransitionView.swift in Sources */,
 				E9E268952C334C4800DB255E /* CategoryModel.swift in Sources */,
 				E9C924892C3735EC0020FCCD /* ScrollTransitionViewModel.swift in Sources */,
 				E949CC8A2C389B0200276A8A /* ScrollTransitionRow.swift in Sources */,
+				E9DA5A992C3C85250067F74F /* VisualEffectRow.swift in Sources */,
 				E9E268922C334C0700DB255E /* CategoryViewModel.swift in Sources */,
+				E9DA5A942C3C81750067F74F /* VisualEffectView.swift in Sources */,
 				E9C924872C3734340020FCCD /* CategoryRow.swift in Sources */,
 				E9E268832C334B8000DB255E /* SwiftUIVisualEffectsApp.swift in Sources */,
 			);
