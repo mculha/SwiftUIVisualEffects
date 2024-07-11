@@ -17,7 +17,7 @@ extension CategoryModel: Hashable { }
 enum CategoryType: CaseIterable {
     case scrollTransition
     case visualEffect
-    case colorTreatments
+    case meshGradient
     case viewTransitions
     case textTransitions
     case metalShaders
@@ -27,8 +27,8 @@ enum CategoryType: CaseIterable {
         switch self {
         case .scrollTransition:
             ScrollTransitionView()
-        case .colorTreatments:
-            EmptyView()
+        case .meshGradient:
+            MeshGradientView()
         case .viewTransitions:
             EmptyView()
         case .textTransitions:
