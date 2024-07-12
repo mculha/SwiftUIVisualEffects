@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E92035AC2C41A5D500226489 /* ViewTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92035AB2C41A5D500226489 /* ViewTransitionView.swift */; };
+		E92035AE2C41A5E000226489 /* ViewTransitionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92035AD2C41A5E000226489 /* ViewTransitionViewModel.swift */; };
 		E949CC8A2C389B0200276A8A /* ScrollTransitionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E949CC892C389B0200276A8A /* ScrollTransitionRow.swift */; };
 		E964D1F62C40686A005B1E12 /* MeshGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E964D1F52C40686A005B1E12 /* MeshGradientView.swift */; };
 		E964D1F82C406871005B1E12 /* MeshGradientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E964D1F72C40686E005B1E12 /* MeshGradientViewModel.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E92035AB2C41A5D500226489 /* ViewTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransitionView.swift; sourceTree = "<group>"; };
+		E92035AD2C41A5E000226489 /* ViewTransitionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransitionViewModel.swift; sourceTree = "<group>"; };
 		E949CC892C389B0200276A8A /* ScrollTransitionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionRow.swift; sourceTree = "<group>"; };
 		E964D1F52C40686A005B1E12 /* MeshGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientView.swift; sourceTree = "<group>"; };
 		E964D1F72C40686E005B1E12 /* MeshGradientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientViewModel.swift; sourceTree = "<group>"; };
@@ -54,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E92035AA2C41A5C600226489 /* ViewTransition */ = {
+			isa = PBXGroup;
+			children = (
+				E92035AB2C41A5D500226489 /* ViewTransitionView.swift */,
+				E92035AD2C41A5E000226489 /* ViewTransitionViewModel.swift */,
+			);
+			path = ViewTransition;
+			sourceTree = "<group>";
+		};
 		E964D1F42C40685D005B1E12 /* MeshGradient */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +79,7 @@
 		E9C924822C3733640020FCCD /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				E92035AA2C41A5C600226489 /* ViewTransition */,
 				E964D1F42C40685D005B1E12 /* MeshGradient */,
 				E9DA5A922C3C81660067F74F /* VisualEffect */,
 				E9C924832C3733780020FCCD /* ScrollEffect */,
@@ -227,7 +241,9 @@
 				E949CC8A2C389B0200276A8A /* ScrollTransitionRow.swift in Sources */,
 				E9DA5A992C3C85250067F74F /* VisualEffectRow.swift in Sources */,
 				E9E268922C334C0700DB255E /* CategoryViewModel.swift in Sources */,
+				E92035AE2C41A5E000226489 /* ViewTransitionViewModel.swift in Sources */,
 				E964D1F82C406871005B1E12 /* MeshGradientViewModel.swift in Sources */,
+				E92035AC2C41A5D500226489 /* ViewTransitionView.swift in Sources */,
 				E9DA5A942C3C81750067F74F /* VisualEffectView.swift in Sources */,
 				E9C924872C3734340020FCCD /* CategoryRow.swift in Sources */,
 				E9E268832C334B8000DB255E /* SwiftUIVisualEffectsApp.swift in Sources */,

@@ -30,7 +30,7 @@ enum CategoryType: CaseIterable {
         case .meshGradient:
             MeshGradientView()
         case .viewTransitions:
-            EmptyView()
+            ViewTransitionView()
         case .textTransitions:
             EmptyView()
         case .metalShaders:
