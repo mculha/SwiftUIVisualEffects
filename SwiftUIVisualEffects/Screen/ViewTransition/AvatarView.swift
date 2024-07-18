@@ -12,13 +12,11 @@ struct AvatarView: View {
         Circle()
             .fill(.blue)
             .overlay {
-                Image(systemName: "person.fill")
+                Image("memoji")
                     .resizable()
                     .scaledToFit()
-                    .scaleEffect(0.5)
-                    .foregroundStyle(.white)
             }
-            .frame(width: 80, height: 80)
+            .frame(width: 120, height: 120)
             .compositingGroup()
     }
 }
