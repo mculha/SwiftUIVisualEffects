@@ -9,5 +9,5 @@ import Foundation
 import SwiftUI
 
 @Observable final class ViewTransitionViewModel {
-    
+    var showAvatar: Bool = true
 }
