@@ -32,7 +32,7 @@ enum CategoryType: CaseIterable {
         case .viewTransitions:
             ViewTransitionView()
         case .textTransitions:
-            EmptyView()
+            TextTransitionView()
         case .metalShaders:
             EmptyView()
         case .visualEffect:

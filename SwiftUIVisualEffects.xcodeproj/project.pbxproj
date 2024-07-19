@@ -26,6 +26,8 @@
 		E9E2688A2C334B8200DB255E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E268892C334B8200DB255E /* Preview Assets.xcassets */; };
 		E9E268922C334C0700DB255E /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E268912C334C0300DB255E /* CategoryViewModel.swift */; };
 		E9E268952C334C4800DB255E /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E268942C334C4500DB255E /* CategoryModel.swift */; };
+		E9E9A9B02C4AF5F10057B726 /* TextTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E9A9AF2C4AF5F10057B726 /* TextTransitionView.swift */; };
+		E9E9A9B22C4AF5FB0057B726 /* TextTransitionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E9A9B12C4AF5F80057B726 /* TextTransitionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		E9E268892C334B8200DB255E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9E268912C334C0300DB255E /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
 		E9E268942C334C4500DB255E /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		E9E9A9AF2C4AF5F10057B726 /* TextTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTransitionView.swift; sourceTree = "<group>"; };
+		E9E9A9B12C4AF5F80057B726 /* TextTransitionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTransitionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 		E9C924822C3733640020FCCD /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				E9E9A9AD2C4AF5D80057B726 /* TextTransition */,
 				E92035AA2C41A5C600226489 /* ViewTransition */,
 				E964D1F42C40685D005B1E12 /* MeshGradient */,
 				E9DA5A922C3C81660067F74F /* VisualEffect */,
@@ -168,6 +173,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E9E9A9AD2C4AF5D80057B726 /* TextTransition */ = {
+			isa = PBXGroup;
+			children = (
+				E9E9A9B12C4AF5F80057B726 /* TextTransitionViewModel.swift */,
+				E9E9A9AF2C4AF5F10057B726 /* TextTransitionView.swift */,
+			);
+			path = TextTransition;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -243,9 +257,11 @@
 				E9C924852C3733870020FCCD /* ScrollTransitionView.swift in Sources */,
 				E964D1F62C40686A005B1E12 /* MeshGradientView.swift in Sources */,
 				E9E268952C334C4800DB255E /* CategoryModel.swift in Sources */,
+				E9E9A9B22C4AF5FB0057B726 /* TextTransitionViewModel.swift in Sources */,
 				E96B73922C49B02B005C6951 /* AvatarView.swift in Sources */,
 				E9C924892C3735EC0020FCCD /* ScrollTransitionViewModel.swift in Sources */,
 				E96B73942C49B488005C6951 /* TwirlTransition.swift in Sources */,
+				E9E9A9B02C4AF5F10057B726 /* TextTransitionView.swift in Sources */,
 				E949CC8A2C389B0200276A8A /* ScrollTransitionRow.swift in Sources */,
 				E9DA5A992C3C85250067F74F /* VisualEffectRow.swift in Sources */,
 				E9E268922C334C0700DB255E /* CategoryViewModel.swift in Sources */,
