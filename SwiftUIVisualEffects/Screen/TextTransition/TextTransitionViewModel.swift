@@ -8,5 +8,5 @@
 import SwiftUI
 
 @Observable final class TextTransitionViewModel {
-    
+    var isVisible: Bool = true
 }

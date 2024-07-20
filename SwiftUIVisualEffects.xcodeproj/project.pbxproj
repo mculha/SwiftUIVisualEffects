@@ -28,6 +28,8 @@
 		E9E268952C334C4800DB255E /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E268942C334C4500DB255E /* CategoryModel.swift */; };
 		E9E9A9B02C4AF5F10057B726 /* TextTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E9A9AF2C4AF5F10057B726 /* TextTransitionView.swift */; };
 		E9E9A9B22C4AF5FB0057B726 /* TextTransitionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E9A9B12C4AF5F80057B726 /* TextTransitionViewModel.swift */; };
+		E9E9A9B42C4C24210057B726 /* AppearanceEffectRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E9A9B32C4C24190057B726 /* AppearanceEffectRenderer.swift */; };
+		E9E9A9B62C4C298C0057B726 /* TextTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E9A9B52C4C29880057B726 /* TextTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		E9E268942C334C4500DB255E /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		E9E9A9AF2C4AF5F10057B726 /* TextTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTransitionView.swift; sourceTree = "<group>"; };
 		E9E9A9B12C4AF5F80057B726 /* TextTransitionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTransitionViewModel.swift; sourceTree = "<group>"; };
+		E9E9A9B32C4C24190057B726 /* AppearanceEffectRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceEffectRenderer.swift; sourceTree = "<group>"; };
+		E9E9A9B52C4C29880057B726 /* TextTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 		E9E9A9AD2C4AF5D80057B726 /* TextTransition */ = {
 			isa = PBXGroup;
 			children = (
+				E9E9A9B52C4C29880057B726 /* TextTransition.swift */,
+				E9E9A9B32C4C24190057B726 /* AppearanceEffectRenderer.swift */,
 				E9E9A9B12C4AF5F80057B726 /* TextTransitionViewModel.swift */,
 				E9E9A9AF2C4AF5F10057B726 /* TextTransitionView.swift */,
 			);
@@ -252,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9E9A9B62C4C298C0057B726 /* TextTransition.swift in Sources */,
 				E9E268852C334B8000DB255E /* CategoryView.swift in Sources */,
 				E9DA5A962C3C81890067F74F /* VisualEffectViewModel.swift in Sources */,
 				E9C924852C3733870020FCCD /* ScrollTransitionView.swift in Sources */,
@@ -265,6 +272,7 @@
 				E949CC8A2C389B0200276A8A /* ScrollTransitionRow.swift in Sources */,
 				E9DA5A992C3C85250067F74F /* VisualEffectRow.swift in Sources */,
 				E9E268922C334C0700DB255E /* CategoryViewModel.swift in Sources */,
+				E9E9A9B42C4C24210057B726 /* AppearanceEffectRenderer.swift in Sources */,
 				E92035AE2C41A5E000226489 /* ViewTransitionViewModel.swift in Sources */,
 				E964D1F82C406871005B1E12 /* MeshGradientViewModel.swift in Sources */,
 				E92035AC2C41A5D500226489 /* ViewTransitionView.swift in Sources */,
