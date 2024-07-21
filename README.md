@@ -13,3 +13,5 @@ According to the [**documentation**](https://developer.apple.com/documentation/s
 
 https://github.com/user-attachments/assets/25040d08-3d6f-4251-a122-8e72721c237f
 
+## Text Renderer
+Introduced for iOS 18 or above, the [**Text Renderer**](https://developer.apple.com/documentation/swiftui/view/textrenderer(_:)) is a powerful feature that enhances text rendering capabilities in SwiftUI. It allows for advanced customization and precise control over text appearance, providing developers with the tools to create rich and dynamic text interfaces.
