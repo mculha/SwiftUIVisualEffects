@@ -7,9 +7,6 @@
 import SwiftUI
 
 struct TextTransition: Transition {
-    static var properties: TransitionProperties {
-        TransitionProperties(hasMotion: true)
-    }
 
     func body(content: Content, phase: TransitionPhase) -> some View {
         let duration = 0.9

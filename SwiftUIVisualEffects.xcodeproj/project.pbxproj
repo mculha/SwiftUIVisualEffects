@@ -14,6 +14,8 @@
 		E964D1F82C406871005B1E12 /* MeshGradientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E964D1F72C40686E005B1E12 /* MeshGradientViewModel.swift */; };
 		E96B73922C49B02B005C6951 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B73912C49B02B005C6951 /* AvatarView.swift */; };
 		E96B73942C49B488005C6951 /* TwirlTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B73932C49B482005C6951 /* TwirlTransition.swift */; };
+		E9908E882C4EEE4F00A1500F /* MetalShaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9908E872C4EEE4F00A1500F /* MetalShaderView.swift */; };
+		E9908E8A2C4EEE5800A1500F /* MetalShaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9908E892C4EEE5800A1500F /* MetalShaderViewModel.swift */; };
 		E9C924852C3733870020FCCD /* ScrollTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C924842C3733870020FCCD /* ScrollTransitionView.swift */; };
 		E9C924872C3734340020FCCD /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C924862C3734340020FCCD /* CategoryRow.swift */; };
 		E9C924892C3735EC0020FCCD /* ScrollTransitionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C924882C3735EA0020FCCD /* ScrollTransitionViewModel.swift */; };
@@ -40,6 +42,8 @@
 		E964D1F72C40686E005B1E12 /* MeshGradientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientViewModel.swift; sourceTree = "<group>"; };
 		E96B73912C49B02B005C6951 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		E96B73932C49B482005C6951 /* TwirlTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwirlTransition.swift; sourceTree = "<group>"; };
+		E9908E872C4EEE4F00A1500F /* MetalShaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalShaderView.swift; sourceTree = "<group>"; };
+		E9908E892C4EEE5800A1500F /* MetalShaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalShaderViewModel.swift; sourceTree = "<group>"; };
 		E9C924842C3733870020FCCD /* ScrollTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionView.swift; sourceTree = "<group>"; };
 		E9C924862C3734340020FCCD /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		E9C924882C3735EA0020FCCD /* ScrollTransitionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionViewModel.swift; sourceTree = "<group>"; };
@@ -90,9 +94,19 @@
 			path = MeshGradient;
 			sourceTree = "<group>";
 		};
+		E9908E862C4EEDBF00A1500F /* MetalShader */ = {
+			isa = PBXGroup;
+			children = (
+				E9908E872C4EEE4F00A1500F /* MetalShaderView.swift */,
+				E9908E892C4EEE5800A1500F /* MetalShaderViewModel.swift */,
+			);
+			path = MetalShader;
+			sourceTree = "<group>";
+		};
 		E9C924822C3733640020FCCD /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				E9908E862C4EEDBF00A1500F /* MetalShader */,
 				E9E9A9AD2C4AF5D80057B726 /* TextTransition */,
 				E92035AA2C41A5C600226489 /* ViewTransition */,
 				E964D1F42C40685D005B1E12 /* MeshGradient */,
@@ -275,10 +289,12 @@
 				E9E9A9B42C4C24210057B726 /* AppearanceEffectRenderer.swift in Sources */,
 				E92035AE2C41A5E000226489 /* ViewTransitionViewModel.swift in Sources */,
 				E964D1F82C406871005B1E12 /* MeshGradientViewModel.swift in Sources */,
+				E9908E882C4EEE4F00A1500F /* MetalShaderView.swift in Sources */,
 				E92035AC2C41A5D500226489 /* ViewTransitionView.swift in Sources */,
 				E9DA5A942C3C81750067F74F /* VisualEffectView.swift in Sources */,
 				E9C924872C3734340020FCCD /* CategoryRow.swift in Sources */,
 				E9E268832C334B8000DB255E /* SwiftUIVisualEffectsApp.swift in Sources */,
+				E9908E8A2C4EEE5800A1500F /* MetalShaderViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
