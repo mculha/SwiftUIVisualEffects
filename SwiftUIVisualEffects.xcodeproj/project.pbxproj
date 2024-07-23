@@ -16,6 +16,8 @@
 		E96B73942C49B488005C6951 /* TwirlTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B73932C49B482005C6951 /* TwirlTransition.swift */; };
 		E9908E882C4EEE4F00A1500F /* MetalShaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9908E872C4EEE4F00A1500F /* MetalShaderView.swift */; };
 		E9908E8A2C4EEE5800A1500F /* MetalShaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9908E892C4EEE5800A1500F /* MetalShaderViewModel.swift */; };
+		E9908E8C2C503CA600A1500F /* RippleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9908E8B2C503CA000A1500F /* RippleEffect.swift */; };
+		E9908E8E2C503E9400A1500F /* Ripple.metal in Sources */ = {isa = PBXBuildFile; fileRef = E9908E8D2C503E9400A1500F /* Ripple.metal */; };
 		E9C924852C3733870020FCCD /* ScrollTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C924842C3733870020FCCD /* ScrollTransitionView.swift */; };
 		E9C924872C3734340020FCCD /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C924862C3734340020FCCD /* CategoryRow.swift */; };
 		E9C924892C3735EC0020FCCD /* ScrollTransitionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C924882C3735EA0020FCCD /* ScrollTransitionViewModel.swift */; };
@@ -44,6 +46,8 @@
 		E96B73932C49B482005C6951 /* TwirlTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwirlTransition.swift; sourceTree = "<group>"; };
 		E9908E872C4EEE4F00A1500F /* MetalShaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalShaderView.swift; sourceTree = "<group>"; };
 		E9908E892C4EEE5800A1500F /* MetalShaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalShaderViewModel.swift; sourceTree = "<group>"; };
+		E9908E8B2C503CA000A1500F /* RippleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleEffect.swift; sourceTree = "<group>"; };
+		E9908E8D2C503E9400A1500F /* Ripple.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Ripple.metal; sourceTree = "<group>"; };
 		E9C924842C3733870020FCCD /* ScrollTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionView.swift; sourceTree = "<group>"; };
 		E9C924862C3734340020FCCD /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		E9C924882C3735EA0020FCCD /* ScrollTransitionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionViewModel.swift; sourceTree = "<group>"; };
@@ -97,8 +101,10 @@
 		E9908E862C4EEDBF00A1500F /* MetalShader */ = {
 			isa = PBXGroup;
 			children = (
+				E9908E8B2C503CA000A1500F /* RippleEffect.swift */,
 				E9908E872C4EEE4F00A1500F /* MetalShaderView.swift */,
 				E9908E892C4EEE5800A1500F /* MetalShaderViewModel.swift */,
+				E9908E8D2C503E9400A1500F /* Ripple.metal */,
 			);
 			path = MetalShader;
 			sourceTree = "<group>";
@@ -278,6 +284,8 @@
 				E9C924852C3733870020FCCD /* ScrollTransitionView.swift in Sources */,
 				E964D1F62C40686A005B1E12 /* MeshGradientView.swift in Sources */,
 				E9E268952C334C4800DB255E /* CategoryModel.swift in Sources */,
+				E9908E8E2C503E9400A1500F /* Ripple.metal in Sources */,
+				E9908E8C2C503CA600A1500F /* RippleEffect.swift in Sources */,
 				E9E9A9B22C4AF5FB0057B726 /* TextTransitionViewModel.swift in Sources */,
 				E96B73922C49B02B005C6951 /* AvatarView.swift in Sources */,
 				E9C924892C3735EC0020FCCD /* ScrollTransitionViewModel.swift in Sources */,

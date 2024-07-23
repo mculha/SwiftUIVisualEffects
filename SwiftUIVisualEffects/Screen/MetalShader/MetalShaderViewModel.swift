@@ -9,5 +9,6 @@ import Foundation
 import SwiftUI
 
 @Observable final class MetalShaderViewModel {
-    
+    var counter: Int = 0
+    var origin: CGPoint = .zero
 }
