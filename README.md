@@ -19,3 +19,7 @@ Introduced for iOS 18 or above, the [**Text Renderer**](https://developer.apple.
 
 https://github.com/user-attachments/assets/47780629-1e76-45ae-9e14-169166d3b94e
 
+## Metal Shaders
+SwiftUI provides extensive integration with Metal shaders, right at the very view level – we can manipulate colors, shapes, and more with remarkable performance.
+
+https://github.com/user-attachments/assets/e72fd536-949c-4197-b653-0b717d048976
